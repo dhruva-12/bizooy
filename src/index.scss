@@ -1,0 +1,50 @@
+@import "assets/scss/app.scss";
+.trash {
+  width: 35px;
+  font-size: 16px;
+  padding: 11px;
+  color:#e4566e;
+}
+.notAvailableTextStyle{
+  color:gray;
+  font-size: 20px;
+}
+
+.editor-class {
+  border: 1px solid #F1F1F1 !important;
+  padding: 5px !important;
+  border-radius: 2px !important;
+  height: 80% !important;
+  background-color:white;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  border-color: black;
+  position: absolute;
+}
+
+.mailchimp{
+  margin: auto;
+}
+
+.dotDisabled {
+  background-color: gray;
+}
+
+.dotEnabled { 
+  background-color: #4CAF50;
+}
+
+
+.demo-content {
+  border: 1px solid #F1F1F1;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  border-radius: 2px;
+  resize: none;
+  height: 200px;
+}
